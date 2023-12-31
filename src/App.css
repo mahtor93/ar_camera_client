@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #f6f6f6;
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color:#f6f6f6;
   min-height: 20vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.cam-space{
+  padding:40px;
+}
+.codigo-escaneado{
+  padding-bottom: 40px;
 }
 
 .App-link {
