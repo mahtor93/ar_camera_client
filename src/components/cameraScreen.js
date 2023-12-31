@@ -9,6 +9,7 @@ function CamaraScreen({isCamaraActive}){
     const handleScan = (data) =>{
         if(data){
             setQRCode(data);
+            console.log(data);
         }
     };
     

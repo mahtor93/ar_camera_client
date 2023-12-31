@@ -1,5 +1,6 @@
 import React,{useState} from "react";
 import CamaraScreen from "./cameraScreen";
+import QrContainer from "./camera";
 
 function ElBoton(){
     const [isCamaraActive, setCamaraActive] = useState(false);
