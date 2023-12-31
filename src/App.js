@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import ElBoton from './components/button';
+import CamaraScreen from './components/cameraScreen';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+        <ElBoton/>
+
     </div>
   );
 }
