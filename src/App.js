@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ElBoton from './components/button';
 import CamaraScreen from './components/cameraScreen';
+import QrContainer from './components/camera';
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-        <ElBoton/>
+        <QrContainer/>
 
     </div>
   );
