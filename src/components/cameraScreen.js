@@ -24,6 +24,7 @@ function CamaraScreen({isCamaraActive}){
                     delay={300}
                     onError={handleError}
                     onScan={handleScan}
+                    facingMode="environment"
                     style={{width:'100%'}}
                     />
                 ):(
